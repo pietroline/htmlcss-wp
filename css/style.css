@@ -1,0 +1,35 @@
+/* start general's css */
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+/* general's css end */
+
+body > .container{
+    width: 80%;
+    margin: auto;
+}
+
+/* start header's css */
+    header .logo{
+        display: inline-block;
+        border-right: solid 1px lightgrey;
+        padding-right: 30px;
+    }
+
+    .menu li{
+        display: inline;
+        margin: 0px 10px;
+    }
+
+    .menu li > a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: grey;
+    }
+
+    .menu ul{
+        margin: 40px 0px;
+    }
+/* header's css end */
