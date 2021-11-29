@@ -92,7 +92,8 @@ body > .container{
 
     .downtitle{
         font-size: 15px;
-        margin: 15px 0px;
+        margin-bottom: 5px;
+        margin-top: 15px;
     }
 
     .sezione_2 .sidebar{
@@ -135,9 +136,13 @@ body > .container{
         text-align: center;
         margin-bottom: 20px;
     }
+
+    footer > div{
+        font-size: 12px;
+    }
     
     footer .cuore{
-        font-size: 30px;
+        font-size: 25px;
         color: #f00;
     }
 /* footer's css end */
