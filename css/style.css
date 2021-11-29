@@ -71,12 +71,28 @@ body > .container{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text > p{
+    font-size: 12px;
+}
+
 
 /* sezione_1's css end */
 
 /* start sezione_2's css */
     .sezione_2 .testa{
         margin: 20px 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .downtext{
+        color: grey;
+        font-size: 12px;
+    }
+
+    .downtitle{
+        font-size: 15px;
+        margin: 15px 0px;
     }
 
     .sezione_2 .sidebar{
@@ -112,13 +128,13 @@ body > .container{
     .img{
         position: relative;
     }
-
-    .downtitle{
-        margin: 15px 0px;
-    }
 /* sezione_2's css end*/
 
 /* start footer's css */
+    footer {
+        text-align: center;
+        margin-bottom: 20px;
+    }
     
     footer .cuore{
         font-size: 30px;
