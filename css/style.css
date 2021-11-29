@@ -40,14 +40,15 @@ body > .container{
     }
 /* header's css end */
 
+/* start sezione_1's css */
 .sezione_1{
     height: 300px;
     position: relative;
 }
 
-.sezione_1 .overlay{
+.overlay{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     top: 0px;
     left: 0px;
     width: 100%;
@@ -62,12 +63,34 @@ body > .container{
     border-radius: 20px;
 }
 
-.text{
+.sezione_1 .text{
     width: 60%;
     position: absolute;
     bottom: 40px;
     left: 20px;
     color: #fff;
 }
+/* sezione_1's css end */
 
+/* start sezione_2's css */
+.a{
+    position: relative;
+}
 
+.sezione_2 .testa{
+    margin: 20px 0px;
+}
+
+.sezione_2 .sidebar{
+    width: 27%;
+    float: left;
+    margin: 3% 0px;
+
+}
+
+.sezione_2:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+/* sezione_2's css end*/
