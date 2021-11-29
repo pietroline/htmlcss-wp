@@ -73,7 +73,7 @@ body > .container{
 /* sezione_1's css end */
 
 /* start sezione_2's css */
-.a{
+.sidebar{
     position: relative;
 }
 
@@ -85,7 +85,18 @@ body > .container{
     width: 27%;
     float: left;
     margin: 3% 0px;
+}
 
+.sezione_2 .sidebar{
+    width: 27%;
+    float: left;
+    margin: 3% 0px;
+}
+
+.sezione_2 .centro{
+    width: 40%;
+    float: left;
+    margin: 3% 3%;
 }
 
 .sezione_2:after{
